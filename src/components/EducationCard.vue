@@ -19,7 +19,7 @@
 defineProps<{
     title: string
     place: string
-    yearStart: number
+    yearStart: string
     yearEnd: string
     description: string
 }>()

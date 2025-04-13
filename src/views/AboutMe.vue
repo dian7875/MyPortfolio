@@ -10,11 +10,18 @@
                 cursando mi carrera universitaria y buscando oportunidades para aplicar mis conocimientos en proyectos
                 desafiantes.
             </p>
-            <button type="button" class=" 
-            p-2 rounded-md cursor-pointer transition-colors duration-600 border
-            bg-white text-black hover:bg-zinc-300 border-zinc-300
-            dark:bg-black dark:text-white dark:hover:bg-zinc-800 dark:border-zinc-700 
-             ">Contactar</button>
+            <div class=" space-x-4">
+                <button type="button" class=" 
+                p-2 rounded-md cursor-pointer transition-colors duration-600 border
+                bg-black text-white hover:bg-zinc-300 border-zinc-300
+                dark:bg-white dark:text-black dark:hover:bg-zinc-300 dark:border-zinc-700 
+                ">Ver portfolio</button>
+                <button type="button" class=" 
+                p-2 rounded-md cursor-pointer transition-colors duration-600 border
+                bg-white text-black hover:bg-zinc-300 border-zinc-300
+                dark:bg-black dark:text-white dark:hover:bg-zinc-800 dark:border-zinc-700 
+                ">Contactar</button>
+            </div>
         </div>
         <div class="w-full flex items-center justify-center">
             <div class="w-64 h-64 rounded-full flex items-center justify-center

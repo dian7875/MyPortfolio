@@ -3,10 +3,10 @@
     <button @click="toggleTheme" type="button" class=" cursor-pointer
      hover:bg-zinc-50 p-2 rounded-md flex items-center justify-center group dark:hover:bg-zinc-900">
         <span v-if="isDarkMode">
-            <BsMoonStarsFill class="group-hover:text-indigo-500 text-xl " />
+            <BsMoonStarsFill class="group-hover:text-indigo-500 text-2xl " />
         </span>
         <span v-else>
-            <AkSun class=" group-hover:text-amber-400 text-xl" />
+            <AkSun class=" group-hover:text-amber-400 text-2xl" />
         </span>
     </button>
 
