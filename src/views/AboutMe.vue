@@ -40,7 +40,7 @@
 
 <script setup>
 import EducationCard from '../components/EducationCard.vue';
-import LanguageCard from '../components/languageCard.vue';
+import LanguageCard from '../components/LanguageCard.vue';
 
 
 
