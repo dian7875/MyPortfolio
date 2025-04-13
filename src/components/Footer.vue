@@ -1,0 +1,12 @@
+<script setup lang="ts">
+const year = new Date().getFullYear();
+</script>
+
+<template>
+<footer class=" w-full bg-zinc-800 p-4 mt-10 flex items-center justify-center flex-col">
+    <p>&copy; {{ year }} Adrian Aguilar D. Todos los derechos reservados</p>
+    <p>Desarrollado con Vue3 y Tailwind CSS</p>
+</footer>
+</template>
+
+<style lang="postcss"></style>
