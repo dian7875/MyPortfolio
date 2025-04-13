@@ -4,6 +4,7 @@ import Header from "../components/Header.vue";
 import AboutMe from "./AboutMe.vue";
 import ContacMe from "./ContacMe.vue";
 import Experience from "./Experience.vue";
+import MyProjects from "./MyProjects.vue";
 import MySkills from "./MySkills.vue";
 </script>
 
@@ -13,6 +14,7 @@ import MySkills from "./MySkills.vue";
     <AboutMe />
     <MySkills/>
     <Experience/>
+    <MyProjects/>
     <ContacMe/>
   </main>
   <Footer />

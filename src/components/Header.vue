@@ -10,22 +10,22 @@ import { CoBrandLinkedin } from '@kalimahapps/vue-icons';
             <nav>
                 <ul className="flex space-x-4 text-lg">
                     <li class="hover:text-zinc-500">
-                        <a href="">Inicio</a>
+                        <a href="#Start">Inicio</a>
                     </li>
                     <li class="hover:text-zinc-500">
-                        <a href="">Educacion</a>
+                        <a href="#Education">Educacion</a>
                     </li>
                     <li class="hover:text-zinc-500">
-                        <a href="">Habilidades</a>
+                        <a href="#Skills">Habilidades</a>
                     </li>
                     <li class="hover:text-zinc-500">
-                        <a href="">Experiencia</a>
+                        <a href="#Experience">Experiencia</a>
                     </li>
                     <li class="hover:text-zinc-500">
-                        <a href="">Proyectos</a>
+                        <a href="#Proyects">Proyectos</a>
                     </li>
                     <li class="hover:text-zinc-500">
-                        <a href="">Contactos</a>
+                        <a href="#Contacts">Contactos</a>
                     </li>
                 </ul>
             </nav>

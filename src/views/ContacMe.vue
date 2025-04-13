@@ -1,5 +1,5 @@
 <template>
-    <section class="w-11/12 flex flex-col items-center space-y-4">
+    <section id="Contacts" class="w-11/12 flex flex-col items-center space-y-4">
         <h2 class=" text-3xl font-bold">
             Contactos
         </h2>

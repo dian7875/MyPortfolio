@@ -1,5 +1,5 @@
 <template>
-    <section class="w-11/12 flex items-center justify-center space-y-4 flex-col">
+    <section id="Experience" class="w-11/12 flex items-center justify-center space-y-4 flex-col">
         <h2 class=" text-3xl font-bold">
             Experiencia
         </h2>
