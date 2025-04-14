@@ -10,26 +10,21 @@
                 La plataforma también proporciona estadísticas detalladas sobre las actividades de la biblioteca, 
                 permitiendo una gestión más precisa y basada en datos. Además, se ofrece una experiencia fluida para
                 los usuarios externos, quienes pueden acceder a beneficios como la inscripción en cursos y la solicitud 
-                de préstamos en línea, todo dentro de un entorno intuitivo y fácil de usar."
-                :tech="hdltecno"
-                srcImg="/HDLPREV.png"
-                srcImg2="/HDL2.png"
-                demo-link="https://hogar-de-libros-front-zer0.vercel.app"
-                github-link="https://github.com/dian7875/Hogar_De_Libros_Front_Zer0.git" />
-            <ProjectCard name="Gestion de transportes" resumen="."
-                :tech="TDtecno"
-                srcImg=""
-                srcImg2=""
-                demo-link="https://transportes-diaz-fe.vercel.app"
+                de préstamos en línea, todo dentro de un entorno intuitivo y fácil de usar." :tech="hdltecno"
+                srcImg="/HDLPREV.png" srcImg2="/HDL2.png" demo-link="https://hogar-de-libros-front-zer0.vercel.app" />
+            <ProjectCard name="Gestion de transportes"
+                resumen="Aplicación web desarrollada a la medida para la empresa Transportes Díaz.
+                El sistema incluye la gestión básica de choferes, camiones y clientes, así como el control de los transportes realizados.
+                 Además, permite la generación de reportes detallados,
+                  tanto para análisis interno de la empresa como para presentación a clientes.
+                   Incluye control de gastos y exportación de reportes en formatos PDF o Excel, adaptándose a los requerimientos de diferentes clientes."
+                :tech="TDtecno" srcImg="" srcImg2="" demo-link="https://transportes-diaz-fe.vercel.app"
                 github-link="https://github.com/dian7875/transportes-Diaz-FE.git" />
-            <ProjectCard name="Gestion de cursos" resumen="."
-            class=""
-                :tech="Coursetecno"
-                srcImg=""
-                srcImg2=""
-                demo-link="https://courses-manage.vercel.app"
+            <ProjectCard name="Gestion de cursos"
+                resumen="Aplicativo desarrollado como proyecto de programación, enfocado en el consumo de una API de terceros.
+                Incluye la gestión de cursos, así como funcionalidades básicas para la eliminación, adición, edición y búsqueda de registros."
+                :tech="Coursetecno" srcImg="/TLD.png" srcImg2="/TDL2.png" demo-link="https://courses-manage.vercel.app"
                 github-link="https://github.com/dian7875/CoursesManage.git" />
-
         </div>
         <button type="button" class=" border border-zinc-300 bg-black text-white cursor-pointer
         dark:bg-white dark:text-black dark:hover:bg-zinc-300
@@ -41,28 +36,28 @@
 <script setup lang="ts">
 import ProjectCard from "../components/ProjectCard.vue";
 
-const hdltecno=[
-    {text:"React + Vite"},
-    {text:"Tailwind CSS"},
-    {text:"NestJS"},
-    {text:"Node.js"},
-    {text:"API REST"},
-    {text:"MySQL"},
+const hdltecno = [
+    { text: "React + Vite" },
+    { text: "Tailwind CSS" },
+    { text: "NestJS" },
+    { text: "Node.js" },
+    { text: "API REST" },
+    { text: "MySQL" },
 ]
 
-const TDtecno=[
-    {text:"Angular"},
-    {text:"Tailwind CSS"},
-    {text:"NestJS"},
-    {text:"Node.js"},
-    {text:"API REST"},
-    {text:"MySQL"},
+const TDtecno = [
+    { text: "Angular" },
+    { text: "Tailwind CSS" },
+    { text: "NestJS" },
+    { text: "Node.js" },
+    { text: "API REST" },
+    { text: "MySQL" },
 ]
 
-const Coursetecno=[
-    {text:"React + Vite"},
-    {text:"Tailwind CSS"},
-    {text:"MockApi"}
+const Coursetecno = [
+    { text: "React + Vite" },
+    { text: "Tailwind CSS" },
+    { text: "MockApi" }
 ]
 </script>
 <style lang=""></style>
