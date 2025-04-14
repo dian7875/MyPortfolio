@@ -3,7 +3,7 @@
         <h2 class=" text-3xl font-bold">
             Experiencia
         </h2>
-        <div class=" flex w-full max-sm:flex-col max-sm:space-y-4">
+        <div class=" flex w-full max-md:flex-col max-md:space-y-4">
             <ExperienceCard role="Desarrollador full stack" place="Biblioteca publica Municipal de Nicoya"
                 lapse="2024 - 2025" :objetives="hdlObjetives" />
         </div>

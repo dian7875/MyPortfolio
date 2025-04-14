@@ -9,7 +9,7 @@ import { CoBrandLinkedin } from '@kalimahapps/vue-icons';
         <div class="flex items-center justify-center space-x-3">
             <nav>
                 <ul className="flex space-x-4 text-lg
-                max-sm:text-sm max-sm:space-x-3">
+                max-md:text-sm max-md:space-x-3">
                     <li class="hover:text-zinc-500">
                         <a href="#Start">Inicio</a>
                     </li>

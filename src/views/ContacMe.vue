@@ -3,8 +3,8 @@
         <h2 class=" text-3xl font-bold">
             Contactos
         </h2>
-        <div class=" flex justify-between w-full gap-10 max-sm:flex-col">
-            <aside class="w-2/4 max-sm:w-full">
+        <div class=" flex justify-between w-full gap-10 max-md:flex-col">
+            <aside class="w-2/4 max-md:w-full">
                 <section class="mb-4 space-y-2.5 text-xl">
                     <p><strong>Nombre completo:</strong> Adrian Aguilar Diaz</p>
                     <p><strong>Correo:</strong> dian7875.a@gmail.com</p>
@@ -40,7 +40,7 @@
                     </div>
                 </section>
             </aside>
-            <aside class="w-2/4 max-sm:w-full">
+            <aside class="w-2/4 max-md:w-full">
                 <ContactForm />
             </aside>
         </div>

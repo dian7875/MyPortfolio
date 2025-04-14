@@ -4,7 +4,7 @@
     dark:border-zinc-700">
         <div>
             <h3 class="text-2xl font-bold
-            max-sm:text-lg">
+            max-md:text-lg">
                 Idiomas
             </h3>
             <ul>

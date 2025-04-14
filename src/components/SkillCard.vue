@@ -2,7 +2,7 @@
     <div class=" border  p-6 rounded-md w-full space-y-2.5 
     border-zinc-300
     dark:border-zinc-700">
-        <h3 class="text-2xl font-bold max-sm:text-lg">
+        <h3 class="text-2xl font-bold max-md:text-lg">
             {{ title }}
         </h3>
         <ul class="list-disc pl-8">

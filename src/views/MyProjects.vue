@@ -1,7 +1,7 @@
 <template>
     <section class="flex flex-col space-y-4 w-11/12 items-center">
         <h2 class=" text-3xl font-bold">Proyectos</h2>
-        <div class="grid grid-cols-3 gap-4 max-sm:grid-cols-1">
+        <div class="grid grid-cols-3 gap-4 max-lg:grid-cols-1">
             <ProjectCard name="Hogar de libros" resumen="Hogar de Libros es una aplicación web desarrollada a medida para la 
                 Biblioteca Pública Municipal de Nicoya. El sistema incluye una página de 
                 inicio atractiva y funcional, además de un panel de gestión administrativo. 
@@ -23,6 +23,7 @@
                 demo-link="https://transportes-diaz-fe.vercel.app"
                 github-link="https://github.com/dian7875/transportes-Diaz-FE.git" />
             <ProjectCard name="Gestion de cursos" resumen="."
+            class=""
                 :tech="Coursetecno"
                 srcImg=""
                 srcImg2=""
