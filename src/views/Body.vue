@@ -10,7 +10,7 @@ import MySkills from "./MySkills.vue";
 
 <template>
   <Header />
-  <main class=" flex w-full items-center flex-col mt-13 space-y-10">
+  <main class=" flex w-full items-center flex-col mt-13 space-y-10 max-sm:mt-3">
     <AboutMe />
     <MySkills/>
     <Experience/>

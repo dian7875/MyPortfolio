@@ -4,13 +4,13 @@
    dark:border-zinc-700">
         <img v-if="srcImg" :src="currentImg" alt="Hogar de libros" class="w-[100%] h-[15rem]"
             @mouseover="changeImage(true)" @mouseout="changeImage(false)">
-        <h3 class="text-2xl font-bold">
+        <h3 class="text-2xl font-bold  max-sm:text-lg">
             {{ name }}
         </h3>
         <p class=" text-sm">
             {{ resumen }}
         </p>
-        <div class=" space-x-1.5">
+        <div class=" space-x-1.5 max-sm:grid max-sm:grid-cols-4 max-sm:space-x-1 max-sm:space-y-1">
             <span class=" bg-zinc-200 rounded-xl dark:bg-zinc-700 p-1 text-xs" v-for="(tec, index) in tech"
                 :key="index">
                 {{ tec.text }}

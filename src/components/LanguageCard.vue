@@ -3,7 +3,8 @@
     border-zinc-300
     dark:border-zinc-700">
         <div>
-            <h3 class="text-2xl font-bold">
+            <h3 class="text-2xl font-bold
+            max-sm:text-lg">
                 Idiomas
             </h3>
             <ul>

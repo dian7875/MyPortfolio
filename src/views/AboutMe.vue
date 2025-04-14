@@ -1,10 +1,11 @@
 <template>
-    <section class=" flex w-11/12 items-center" id="Start">
+    <section class=" flex w-11/12 items-center 
+    max-sm:flex-col-reverse" id="Start">
         <div class="w-full space-y-3">
-            <h1 class=" text-4xl font-bold">
+            <h1 class=" text-4xl font-bold max-sm:text-xl max-sm:mt-3">
                 Hola, soy Adrian Aguilar D.
             </h1>
-            <h2 class=" text-2xl">Desarrollador Web y estudiante de ingeniria en sistemas de infomacion</h2>
+            <h2 class=" text-2xl max-sm:text-xl">Desarrollador Web y estudiante de ingeniria en sistemas de infomacion</h2>
             <p class=" text-md">
                 Soy un apasionado desarrollador web con experiencia en tecnologías frontend y backend. Actualmente estoy
                 cursando mi carrera universitaria y buscando oportunidades para aplicar mis conocimientos en proyectos
@@ -36,7 +37,7 @@
         <h2 class=" text-3xl font-bold">
             Educación
         </h2>
-        <div class=" grid grid-cols-2 gap-10 w-full">
+        <div class=" grid grid-cols-2 gap-10 w-full max-sm:grid-cols-1">
             <EducationCard title="Ingenieria en sistemas de informacion" place="Universidad nacional de costa rica"
                 year-start="2020" year-end="Presente"
                 description="Cursando actualmente el ultimo año de la carrera con enfoque en desarrollo web." />
