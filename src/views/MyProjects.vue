@@ -31,7 +31,7 @@
         dark:bg-white dark:text-black dark:hover:bg-zinc-300
         hover:bg-zinc-400 p-4 w-fit rounded-md
         transition-colors duration-300">
-                Ver portfolio completo
+                Ver portafolio completo
             </button>
         </router-link>
     </section>

@@ -22,7 +22,7 @@
         </header>
         <section class="text-center space-y-3 p-10">
             <h2 class=" text-4xl font-bold">
-                Mi Portfolio de proyectos
+                Mi Portafolio de proyectos
             </h2>
             <router-link to="/">
                 <button class="border border-zinc-300 bg-black text-white cursor-pointer

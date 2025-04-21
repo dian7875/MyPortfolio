@@ -20,17 +20,21 @@
                     dark:bg-emerald-500 dark:hover:bg-emerald-600
                     ">Contactar</button>
                 </a>
-                <button type="button" class=" 
-                    p-2 rounded-md cursor-pointer transition-colors duration-300 border
-                  bg-black text-white hover:bg-zinc-300 border-zinc-300
-                  dark:bg-white dark:text-black dark:hover:bg-zinc-300 dark:border-zinc-700 
-                    ">Descargar CV</button>
+                <a href="/Adrian_AguilarCV.pdf" download>
+                    <button type="button" class=" 
+    p-2 rounded-md cursor-pointer transition-colors duration-300 border
+    bg-black text-white hover:bg-zinc-300 border-zinc-300
+    dark:bg-white dark:text-black dark:hover:bg-zinc-300 dark:border-zinc-700 
+  ">
+                        Descargar CV
+                    </button>
+                </a>
                 <router-link to="/portfolio">
                     <button type="button" class=" 
                         p-2 rounded-md cursor-pointer transition-colors duration-300 border
                         bg-white text-black hover:bg-zinc-200 border-zinc-300
                         dark:bg-black dark:text-white dark:hover:bg-zinc-800 dark:border-zinc-700 
-                        ">Ver portfolio</button>
+                        ">Ver portafolio</button>
                 </router-link>
             </div>
         </div>
@@ -38,8 +42,7 @@
             <div class="w-64 h-64 rounded-full flex items-center justify-center
             bg-zinc-300
             dark:bg-zinc-800">
-                <img class="rounded-full w-56 h-56 object-cover"
-                    src="https://images.alphacoders.com/130/thumb-1920-130353.jpg" alt="">
+                <img class="rounded-full w-56 h-56 object-cover" src="/image.png" alt="">
             </div>
         </div>
     </section>

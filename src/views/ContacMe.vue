@@ -27,13 +27,13 @@
                         </button>
                         <button type="button"
                             class=" hover:bg-zinc-50 rounded-md p-2 dark:hover:bg-zinc-900 hover:text-red-300">
-                            <a target="_blank" href="https://www.linkedin.com/in/adrian-aguilar-diaz-4b1079354/">
+                            <a target="_blank" href="https://www.instagram.com/blake787_a?igsh=bjlmbmN1NXJiam9l&utm_source=qr">
                                 <AnFilledInstagram class="text-2xl" />
                             </a>
                         </button>
                         <button type="button"
                             class=" hover:bg-zinc-50 rounded-md p-2 dark:hover:bg-zinc-900 hover:text-blue-600">
-                            <a target="_blank" href="https://www.linkedin.com/in/adrian-aguilar-diaz-4b1079354/">
+                            <a target="_blank" href="https://www.facebook.com/share/1HaZEbxnbA/?mibextid=wwXIfr">
                                 <AkFacebookFill n class="text-2xl" />
                             </a>
                         </button>
