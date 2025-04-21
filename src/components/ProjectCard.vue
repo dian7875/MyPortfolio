@@ -2,7 +2,7 @@
     <div class=" border  p-6 rounded-md w-full space-y-2.5 
    border-zinc-300
    dark:border-zinc-700">
-        <img v-if="srcImg" :src="currentImg" alt="Hogar de libros" class="w-[100%] h-[15rem]"
+        <img v-if="srcImg" :src="currentImg" alt="Hogar de libros" class="w-full h-[15rem] transition-opacity duration-500 ease-in-out opacity-100"
             @mouseover="changeImage(true)" @mouseout="changeImage(false)">
         <h3 class="text-2xl font-bold  max-md:text-lg">
             {{ name }}
