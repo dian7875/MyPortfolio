@@ -9,15 +9,17 @@ import MySkills from "./MySkills.vue";
 </script>
 
 <template>
-  <Header />
-  <main class=" flex w-full items-center flex-col mt-13 space-y-10 max-md:mt-3">
-    <AboutMe />
-    <MySkills/>
-    <Experience/>
-    <MyProjects/>
-    <ContacMe/>
-  </main>
-  <Footer />
+  <div>
+    <Header />
+    <main class=" flex w-full items-center flex-col mt-13 space-y-10 max-md:mt-3">
+      <AboutMe />
+      <MySkills />
+      <Experience />
+      <MyProjects />
+      <ContacMe />
+    </main>
+    <Footer />
+  </div>
 </template>
 
 <style lang="postcss"></style>

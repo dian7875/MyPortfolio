@@ -12,8 +12,7 @@
                 los usuarios externos, quienes pueden acceder a beneficios como la inscripción en cursos y la solicitud 
                 de préstamos en línea, todo dentro de un entorno intuitivo y fácil de usar." :tech="hdltecno"
                 srcImg="/HDLPREV.png" srcImg2="/HDL2.png" demo-link="https://hogar-de-libros-front-zer0.vercel.app" />
-            <ProjectCard name="Gestion de transportes"
-                resumen="Aplicación web desarrollada a la medida para la empresa Transportes Díaz.
+            <ProjectCard name="Gestion de transportes" resumen="Aplicación web desarrollada a la medida para la empresa Transportes Díaz.
                 El sistema incluye la gestión básica de choferes, camiones y clientes, así como el control de los transportes realizados.
                  Además, permite la generación de reportes detallados,
                   tanto para análisis interno de la empresa como para presentación a clientes.
@@ -27,12 +26,14 @@
                 :tech="Coursetecno" srcImg="/TLD.png" srcImg2="/TDL2.png" demo-link="https://courses-manage.vercel.app"
                 github-link="https://github.com/dian7875/CoursesManage.git" />
         </div>
-        <button type="button" class=" border border-zinc-300 bg-black text-white cursor-pointer
+        <router-link to="/portfolio">
+            <button type="button" class=" border border-zinc-300 bg-black text-white cursor-pointer
         dark:bg-white dark:text-black dark:hover:bg-zinc-300
         hover:bg-zinc-400 p-4 w-fit rounded-md
         transition-colors duration-300">
-            <router-link to="/portfolio"> Ver portfolio completo </router-link>
-        </button>
+                Ver portfolio completo
+            </button>
+        </router-link>
     </section>
 </template>
 <script setup lang="ts">
