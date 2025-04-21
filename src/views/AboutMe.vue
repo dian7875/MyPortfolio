@@ -5,23 +5,33 @@
             <h1 class=" text-4xl font-bold max-md:text-xl max-md:mt-3">
                 Hola, soy Adrian Aguilar D.
             </h1>
-            <h2 class=" text-2xl max-md:text-xl">Desarrollador Web y estudiante de ingeniria en sistemas de infomacion</h2>
+            <h2 class=" text-2xl max-md:text-xl">Desarrollador Web y estudiante de ingeniria en sistemas de infomacion
+            </h2>
             <p class=" text-md">
                 Soy un apasionado desarrollador web con experiencia en tecnologías frontend y backend. Actualmente estoy
                 cursando mi carrera universitaria y buscando oportunidades para aplicar mis conocimientos en proyectos
                 desafiantes.
             </p>
             <div class=" space-x-4">
+                <a href="#Contacts">
+                    <button type="button" class=" 
+                      p-2 rounded-md cursor-pointer transition-colors duration-300 border
+                    bg-emerald-600 hover:bg-emerald-700 text-white
+                    dark:bg-emerald-500 dark:hover:bg-emerald-600
+                    ">Contactar</button>
+                </a>
                 <button type="button" class=" 
-                p-2 rounded-md cursor-pointer transition-colors duration-600 border
-                bg-black text-white hover:bg-zinc-300 border-zinc-300
-                dark:bg-white dark:text-black dark:hover:bg-zinc-300 dark:border-zinc-700 
-                ">Ver portfolio</button>
-                <button type="button" class=" 
-                p-2 rounded-md cursor-pointer transition-colors duration-600 border
-                bg-white text-black hover:bg-zinc-300 border-zinc-300
-                dark:bg-black dark:text-white dark:hover:bg-zinc-800 dark:border-zinc-700 
-                ">Contactar</button>
+                    p-2 rounded-md cursor-pointer transition-colors duration-300 border
+                  bg-black text-white hover:bg-zinc-300 border-zinc-300
+                  dark:bg-white dark:text-black dark:hover:bg-zinc-300 dark:border-zinc-700 
+                    ">Descargar CV</button>
+                <router-link to="/portfolio">
+                    <button type="button" class=" 
+                        p-2 rounded-md cursor-pointer transition-colors duration-300 border
+                        bg-white text-black hover:bg-zinc-200 border-zinc-300
+                        dark:bg-black dark:text-white dark:hover:bg-zinc-800 dark:border-zinc-700 
+                        ">Ver portfolio</button>
+                </router-link>
             </div>
         </div>
         <div class="w-full flex items-center justify-center">

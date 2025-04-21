@@ -25,7 +25,11 @@
                 placeholder="Me encantaria saber en que puedo colaborarte. Escribe cualquier motivo aqui."></textarea>
         </fieldset>
 
-        <button type="submit" class="  border rounded-md py-2 px-4">
+        <button type="submit" class=" border rounded-md py-2 px-4 
+        bg-black text-white
+        dark:bg-white dark:text-black 
+        hover:bg-zinc-400 dark:hover:bg-zinc-300
+        transition-colors duration-300">
             <span v-if="isLoading">Enviando...</span>
             <span v-else>Enviar</span>
         </button>
@@ -65,7 +69,7 @@ async function sendEmail() {
     } catch (error) {
         console.error('Error al enviar correo:', error);
         alert('Error al enviar el correo ❌');
-    }finally {
+    } finally {
         isLoading.value = false;
     }
 }

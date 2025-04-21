@@ -17,7 +17,8 @@
                 El sistema incluye la gestión básica de choferes, camiones y clientes, así como el control de los transportes realizados.
                  Además, permite la generación de reportes detallados,
                   tanto para análisis interno de la empresa como para presentación a clientes.
-                   Incluye control de gastos y exportación de reportes en formatos PDF o Excel, adaptándose a los requerimientos de diferentes clientes."
+                   Incluye control de gastos y exportación de reportes en formatos PDF o Excel, adaptándose a los requerimientos de diferentes clientes.
+                   Accede con las credenciales Ususario: Invitados Contraseña: Invitados123 para ver mas."
                 :tech="TDtecno" srcImg="/TD1.png" srcImg2="TD2.png" demo-link="https://transportes-diaz-fe.vercel.app"
                 github-link="https://github.com/dian7875/transportes-Diaz-FE.git" />
             <ProjectCard name="Gestion de cursos"
@@ -28,7 +29,8 @@
         </div>
         <button type="button" class=" border border-zinc-300 bg-black text-white cursor-pointer
         dark:bg-white dark:text-black dark:hover:bg-zinc-300
-        hover:bg-zinc-800 p-4 w-fit rounded-md">
+        hover:bg-zinc-400 p-4 w-fit rounded-md
+        transition-colors duration-300">
             <router-link to="/portfolio"> Ver portfolio completo </router-link>
         </button>
     </section>
