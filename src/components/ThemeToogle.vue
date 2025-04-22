@@ -20,22 +20,6 @@ import { onMounted, ref } from 'vue';
 //Estado para control del modo obscuro
 const isDarkMode = ref(false);
 
-//Funcion de cambio de tema para accion click del boton al que se le aplique como funcion onclick
-const toggleTheme = () => {
-    isDarkMode.value = !isDarkMode.value;
-    applyTheme();
-};
-
-//Revision en localStorage para establecer el dark al body en caso que de se seleccionara previamente
-//Esta es la que evita perder el modo obscuro
-//Dado que la weeb es una sola pagina no se manejo por contexto global si no que al montar el componente ya que esta pensado para montarse al arrancar la pagina
-onMounted(() => {
-    const storedTheme = localStorage.getItem('theme');
-    if (storedTheme) {
-        isDarkMode.value = storedTheme === 'dark';
-    }
-    applyTheme();
-});
 // Aplica el tema oscuro o claro a la etiqueta html y guarda la preferencia en localStorage
 const applyTheme = () => {
     if (isDarkMode.value) {
@@ -47,6 +31,24 @@ const applyTheme = () => {
     }
     //Si isDarkMode es true añadira dark como clase del html en caso contrario lo va a remover
 };
+
+//Funcion de cambio de tema para accion click del boton al que se le aplique como funcion onclick
+const toggleTheme = () => {
+    isDarkMode.value = !isDarkMode.value;
+    applyTheme();
+};
+
+//Revision en localStorage para establecer el dark al document en caso que de se seleccionara previamente
+//Esta es la que evita perder el modo obscuro
+//Dado que la weeb es una sola pagina no se manejo por contexto global si no que al montar el componente ya que esta pensado para montarse al arrancar la pagina
+onMounted(() => {
+    const storedTheme = localStorage.getItem('theme');
+    if (storedTheme) {
+        isDarkMode.value = storedTheme === 'dark';
+    }
+    applyTheme();
+});
+
 
 </script>
 <style scoped lang="css">
