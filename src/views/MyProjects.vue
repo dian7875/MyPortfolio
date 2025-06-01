@@ -11,7 +11,7 @@
                 permitiendo una gestión más precisa y basada en datos. Además, se ofrece una experiencia fluida para
                 los usuarios externos, quienes pueden acceder a beneficios como la inscripción en cursos y la solicitud 
                 de préstamos en línea, todo dentro de un entorno intuitivo y fácil de usar." :tech="hdltecno"
-                srcImg="/HDLPREV.png" srcImg2="/HDL2.png" demo-link="https://hogar-de-libros-front-zer0.vercel.app" />
+                srcImg="/HDLPREV.png" srcImg2="/HDL2.png" demo-link="https://hdl.dianprojects.online" />
             <ProjectCard name="Gestion de transportes" resumen="Aplicación web desarrollada a la medida para la empresa Transportes Díaz.
                 El sistema incluye la gestión básica de choferes, camiones y clientes, así como el control de los transportes realizados.
                  Además, permite la generación de reportes detallados,
