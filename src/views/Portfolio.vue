@@ -42,7 +42,7 @@
             los usuarios externos, quienes pueden acceder a beneficios como la inscripción en cursos y la solicitud de
             préstamos en línea, todo dentro de un entorno intuitivo y fácil de usar." :tech="hdltecno"
                     srcImg="/HDLPREV.png" srcImg2="/HDL2.png"
-                    demo-link="https://hogar-de-libros-front-zer0.vercel.app" />
+                    demo-link="https://hdl.dianprojects.online" />
                 <PortFolioProyectCard role="Desarrollador Full Stack (Full Stack Developer)"
                     name="Gestion de transportes" resumen="Aplicación web desarrollada a la medida para la empresa Transportes Díaz.
                 El sistema incluye la gestión básica de choferes, camiones y clientes, así como el control de los transportes realizados.
