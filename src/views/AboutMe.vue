@@ -5,7 +5,7 @@
             <h1 class=" text-4xl font-bold max-md:text-xl max-md:mt-3">
                 Hola, soy Adrian Aguilar D.
             </h1>
-            <h2 class=" text-2xl max-md:text-xl">Desarrollador Web y estudiante de ingeniria en sistemas de infomacion
+            <h2 class=" text-2xl max-md:text-xl">Desarrollador Web y estudiante de ingeniería en sistemas de infomacion
             </h2>
             <p class=" text-md">
                 Soy un apasionado desarrollador web con experiencia en tecnologías frontend y backend. Actualmente estoy
