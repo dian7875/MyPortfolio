@@ -5,7 +5,7 @@ import { CoBrandLinkedin } from '@kalimahapps/vue-icons';
 </script>
 
 <template>
-    <header class="w-full py-6 px-4 flex justify-between items-center sticky top-0 z-50">
+    <header class="w-full py-6 px-4 flex justify-between items-center sticky top-0 z-50 bg-gradient-to-b from-black to-white text-white">
         <div class="flex items-center justify-center space-x-3">
             <nav>
                 <ul className="flex space-x-4 text-lg
