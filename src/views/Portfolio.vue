@@ -51,7 +51,7 @@
                    Incluye control de gastos y exportación de reportes en formatos PDF o Excel, adaptándose a los requerimientos de diferentes clientes.
                    Accede con las credenciales Ususario: Invitados Contraseña: Invitados123 para ver mas."
                     :tech="TDtecno" srcImg="/TD1.png" srcImg2="TD2.png"
-                    demo-link="https://transportes-diaz-fe.vercel.app"
+                    demo-link="https://ejemplo-td.dianprojects.online"
                     github-link="https://github.com/dian7875/transportes-Diaz-FE.git" />
                 <PortFolioProyectCard name="Gestion de cursos" role="Desarrollador Frontend (Frontend Developer)"
                     resumen="Aplicativo desarrollado como proyecto de programación, enfocado en el consumo de una API de terceros.
