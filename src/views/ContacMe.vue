@@ -7,8 +7,8 @@
             <aside class="w-2/4 max-md:w-full">
                 <section class="mb-4 space-y-2.5 text-xl">
                     <p><strong>Nombre completo:</strong> Adrian Aguilar Diaz</p>
-                    <p><strong>Correo:</strong> dian7875.a@gmail.com</p>
-                    <p><strong>Teléfono:</strong> +506 61968116</p>
+                    <p><strong>Correo:</strong> <a href="mailto:dian7875.a@gmail.com">dian7875.a@gmail.com</a></p>
+                    <p><strong>Teléfono:</strong> <a href="https://wa.me/50661968116" target="_blank">+506 61968116</a></p>
                     <p><strong>Residencia:</strong> Río Grande de Nicoya, Guanacaste, Costa Rica</p>
                 </section>
                 <section aria-label="Redes sociales">
