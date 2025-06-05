@@ -13,7 +13,7 @@
                 desafiantes.
             </p>
             <div class=" space-x-4">
-                <a href="#Contacts">
+                <a href="https://wa.me/50661968116" target="_blank">
                     <button type="button" class=" 
                       p-2 rounded-md cursor-pointer transition-colors duration-300 border
                     bg-emerald-600 hover:bg-emerald-700 text-white
